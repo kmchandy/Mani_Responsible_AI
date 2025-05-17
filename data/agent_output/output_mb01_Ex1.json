@@ -1,0 +1,62 @@
+{
+    "mission_summary": "Urban Rescue Unit Bravo is tasked with stabilization, search, and rescue operations in Downtown Grid Zone 3 following a major seismic event. The operations are to begin within 6 hours of receiving the mission.",
+    "commanders_intent": "The purpose is to prioritize life-saving operations in heavily impacted zones, maintain safety for responders, and enable a smooth transition to recovery operations. Key tasks involve establishing emergency zones, using robots and drones for searches, coordinating evacuations, monitoring hazards, and assessing damage. The desired end state includes all survivors evacuated, hazards neutralized, and the area stabilized for recovery operations.",
+    "key_tasks": [
+        {
+            "task": "Establish triage and emergency shelter zones near major intersections",
+            "priority": 2,
+            "category": "support"
+        },
+        {
+            "task": "Search collapsed structures using ground robots and aerial drones",
+            "priority": 1,
+            "category": "maneuver"
+        },
+        {
+            "task": "Coordinate with local medical teams for casualty evacuation",
+            "priority": 3,
+            "category": "support"
+        },
+        {
+            "task": "Monitor gas lines and electrical grids for secondary hazards",
+            "priority": 3,
+            "category": "protection"
+        },
+        {
+            "task": "Collect damage assessment data for infrastructure planning",
+            "priority": 4,
+            "category": "intel"
+        },
+        {
+            "task": "Maintain clear ingress and egress routes for mutual aid units",
+            "priority": 2,
+            "category": "maneuver"
+        }
+    ],
+    "guardrails": [
+        {
+            "caution": "Ensure all operations uphold the safety of responders and minimize additional risks",
+            "impact": 9,
+            "type": "tactical"
+        },
+        {
+            "caution": "Adhere to environmental regulations regarding operations in urban and potentially hazardous areas",
+            "impact": 8,
+            "type": "environmental"
+        }
+    ],
+    "end_state": "All accessible survivors are located and evacuated, hazards are neutralized, and the area is stable enough for recovery teams to enter with minimal risk.",
+    "conflicts": [
+        "Potential conflict between the urgency of rescue operations and ensuring comprehensive monitoring and neutralization of environmental hazards like gas and electrical lines."
+    ],
+    "scene_factors": [
+        {
+            "description": "Densely populated urban setting may hinder large-scale evacuation and emergency operations",
+            "severity": 6
+        },
+        {
+            "description": "Potential ongoing aftershocks could complicate rescue efforts and risk safety of the rescue team",
+            "severity": 7
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "Mission": {
+        "Unit": "Urban Rescue Unit Bravo",
+        "Task": "Conduct search and rescue operations",
+        "Location": "Downtown Grid Zone 3",
+        "Context": "Following a major seismic event"
+    },
+    "Commander's Intent": {
+        "Purpose": "Prioritize life-saving operations",
+        "Key Tasks": [
+            "Identify most heavily impacted zones"
+        ],
+        "End State": "Effective execution of life-saving operations in prioritized zones"
+    }
+}

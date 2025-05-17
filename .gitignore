@@ -1,0 +1,6 @@
+# Don't save pycache files in git.
+__pycache__/
+*.pyc
+
+# Dont' save environment files in git.
+.env
